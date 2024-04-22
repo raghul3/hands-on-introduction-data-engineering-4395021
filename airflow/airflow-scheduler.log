@@ -1,0 +1,86 @@
+2024-04-22 06:12:47,449 INFO - Starting the scheduler
+2024-04-22 06:12:47,450 INFO - Processing each file at most -1 times
+2024-04-22 06:12:47,451 INFO - Loaded executor: SequentialExecutor
+2024-04-22 06:12:47,456 INFO - Launched DagFileProcessorManager with pid: 43192
+2024-04-22 06:12:47,457 INFO - Resetting orphaned tasks for active dag runs
+2024-04-22 06:12:47,461 INFO - Configured default timezone Timezone('UTC')
+2024-04-22 06:13:02,250 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cache-Control: max-age=0
+Referer: https://github.com/
+X-Request-Id: 5531a88677372daaf31fa713fa720c40
+X-Real-Ip: 10.240.1.166
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: orange-robot-x4grjqr9x9v36rv4-8793.app.github.dev
+X-Forwarded-For: 10.240.1.166
+Proxy-Connection: Keep-Alive
+
+.
+2024-04-22 06:13:02,251 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-04-22 06:13:02,693 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Referer: https://orange-robot-x4grjqr9x9v36rv4-8793.app.github.dev/
+X-Request-Id: 6f899d59f5d2f65591e606ec3ffd9cde
+X-Real-Ip: 10.240.1.166
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: orange-robot-x4grjqr9x9v36rv4-8793.app.github.dev
+X-Forwarded-For: 10.240.1.166
+Proxy-Connection: Keep-Alive
+
+.
+2024-04-22 06:13:02,694 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-04-22 06:17:47,828 INFO - Resetting orphaned tasks for active dag runs
+2024-04-22 06:22:47,875 INFO - Resetting orphaned tasks for active dag runs
+2024-04-22 06:27:48,043 INFO - Resetting orphaned tasks for active dag runs
+2024-04-22 06:27:56,871 INFO - Exiting gracefully upon receiving signal 15
+2024-04-22 06:27:57,874 INFO - Sending Signals.SIGTERM to group 43192. PIDs of all processes in the group: [43192]
+2024-04-22 06:27:57,875 INFO - Sending the signal Signals.SIGTERM to group 43192
+2024-04-22 06:27:58,095 INFO - Process psutil.Process(pid=43192, status='terminated', exitcode=0, started='06:12:47') (43192) terminated with exit code 0
+2024-04-22 06:27:58,097 INFO - Sending Signals.SIGTERM to group 43192. PIDs of all processes in the group: []
+2024-04-22 06:27:58,097 INFO - Sending the signal Signals.SIGTERM to group 43192
+2024-04-22 06:27:58,098 INFO - Sending the signal Signals.SIGTERM to process 43192 as process group is missing.
+2024-04-22 06:27:58,098 INFO - Exited execute loop

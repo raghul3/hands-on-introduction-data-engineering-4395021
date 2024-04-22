@@ -1,0 +1,9 @@
+[2024-04-22 06:12:47 +0000] [43189] [INFO] Starting gunicorn 20.1.0
+[2024-04-22 06:12:47 +0000] [43189] [INFO] Listening at: http://[::]:8793 (43189)
+[2024-04-22 06:12:47 +0000] [43189] [INFO] Using worker: sync
+[2024-04-22 06:12:47 +0000] [43190] [INFO] Booting worker with pid: 43190
+[2024-04-22 06:12:47 +0000] [43191] [INFO] Booting worker with pid: 43191
+[2024-04-22 06:27:58 +0000] [43189] [INFO] Handling signal: term
+[2024-04-22 06:27:58 +0000] [43190] [INFO] Worker exiting (pid: 43190)
+[2024-04-22 06:27:58 +0000] [43191] [INFO] Worker exiting (pid: 43191)
+[2024-04-22 06:27:58 +0000] [43189] [INFO] Shutting down: Master
